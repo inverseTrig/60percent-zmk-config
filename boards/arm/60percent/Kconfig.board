@@ -1,0 +1,8 @@
+# 60percent board configuration
+
+# Copyright (c) 2023 HeeChan Kang
+# SPDX-License-Identifier: MIT
+
+config BOARD_60PERCENT
+    bool "ILabs Challenger 840"
+    depends on SOC_NRF52840_QIAA
