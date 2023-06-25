@@ -54,7 +54,7 @@
             // |             |      |      |      |      |      |      |      |      |      |       |               |         |
             // |         |      |      |                                                     |       |       |
             bindings = <
-                &trans    &out OUT_TOG   &bt BT_PRV   &bt BT_NXT   &trans           &trans    &trans    &trans       &trans     &trans     &trans      &trans  &trans  &trans &bootloader
+                &trans    &out OUT_TOG   &bt BT_PRV   &bt BT_NXT   &bt BT_CLR  &trans    &trans    &trans       &trans     &trans     &trans      &trans  &trans  &trans &bootloader
                 &trans    &trans   &trans   &trans   &sys_reset      &trans    &trans    &trans       &trans     &trans     &trans      &trans  &trans  &trans
                 &trans    &trans   &trans   &trans   &trans           &trans    &trans    &trans       &trans     &trans     &trans      &trans  &trans
                 &trans    &trans   &trans   &trans   &trans           &trans    &trans    &trans       &trans     &trans     &trans      &trans  &trans
