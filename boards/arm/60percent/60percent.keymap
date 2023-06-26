@@ -48,13 +48,13 @@
         };
         layer_2 {
             // ------------------------------------------------------------------------------------------
-            // |       |OUT_TOG|BT_PRV|BT_NXT|BT_CLR|      |      |      |      |      |       |       |       |      | BTLDR |
+            // |       |OUT_TOG|BT_PRV|BT_NXT|BT_CLR|      |      |      |      |      |       |       |       |      |       |
             // |         |      |      |      | RESET|      |      |      |      |       |       |      |       |             |
             // |           |      |      |      |      |      |      |      |      |      |       |       |                   |
             // |             |      |      |      |      |      |      |      |      |      |       |               |         |
             // |         |      |      |                                                     |       |       |
             bindings = <
-                &trans    &out OUT_TOG   &bt BT_PRV   &bt BT_NXT   &bt BT_CLR  &trans    &trans    &trans       &trans     &trans     &trans      &trans  &trans  &trans &bootloader
+                &trans    &out OUT_TOG   &bt BT_PRV   &bt BT_NXT   &bt BT_CLR  &trans    &trans    &trans       &trans     &trans     &trans      &trans  &trans  &trans &trans
                 &trans    &trans   &trans   &trans   &sys_reset      &trans    &trans    &trans       &trans     &trans     &trans      &trans  &trans  &trans
                 &trans    &trans   &trans   &trans   &trans           &trans    &trans    &trans       &trans     &trans     &trans      &trans  &trans
                 &trans    &trans   &trans   &trans   &trans           &trans    &trans    &trans       &trans     &trans     &trans      &trans  &trans
